@@ -9,5 +9,3 @@ winget install Bitwarden.Bitwarden && winget install Discord.Discord && winget i
 # software from internet
 
 AMD auto-detect software
-
-MSEdgeRedirect from GitHub
