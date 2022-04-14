@@ -9,3 +9,12 @@ winget install Bitwarden.Bitwarden && winget install Discord.Discord && winget i
 # software from internet
 
 AMD auto-detect software
+
+
+
+
+
+# config
+
+  # qBittorrent
+    - configure power management, enable anonymous mode, and recheck torrents on completion
