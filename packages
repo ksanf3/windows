@@ -1,6 +1,6 @@
 # winget software
 
-winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install Balena.Etcher && winget install GnuPG.GnuPG && winget install LibreWolf.LibreWolf && winget install MiniTool.PartitionWizard.Free && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC && winget install Microsoft.WindowsInstallationAssistant
+winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install Balena.Etcher && winget install GnuPG.GnuPG && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC && winget install Microsoft.WindowsInstallationAssistant
 
 
 
