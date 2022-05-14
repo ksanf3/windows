@@ -4,5 +4,5 @@
 # Instructions
   - open the terminal and run the followint commands...
     - winget install Git.Git 
-    - git clone https://github.com/soberhippie3/windows
+    - git clone https://github.com/ksanf3/windows
   - open the downloaded file and follow instructions
