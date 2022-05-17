@@ -22,8 +22,9 @@ AMD Website -> Drivers & Support -> Auto-Detect
     - "View" tab -> Search Engine
     - configure search by...
         - go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> click link to download plugin -> save the script to a temporary location
-        - you dont need to install jackett since it was already installed from winget, but you need to launch it from the start menu and start it and set it to autostart on boot
+        - you dont need to install jackett since it was already installed from winget, but you need to launch it from the start menu, start it and set it to autostart on boot
         - in qbittorrent open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
+        - to configure jackett, open the url that is displayed in qBittorrent -> Search tab -> search plugins
 
     
   # Chromium
