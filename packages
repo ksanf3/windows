@@ -1,7 +1,7 @@
 # winget software
 
 # open the terminal and set the default profile to "Windows PowerShell", but run this command with "Command Prompt"
-winget install AdGuard.AdGuard && winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install Balena.Etcher && winget install GnuPG.GnuPG && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC
+winget install AdGuard.AdGuard && winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install Balena.Etcher && winget install GnuPG.GnuPG && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC
 
 
 
@@ -21,8 +21,7 @@ AMD Website -> Drivers & Support -> Auto-Detect
     - in preferences, configure power management, enable anonymous mode, and recheck torrents on completion
     - "View" tab -> Search Engine
     - configure search by...
-        - go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> click link to download plugin -> save the script to a temporary location
-        - you dont need to install jackett since it was already installed from winget, but you need to launch it from the start menu, start it and set it to autostart on boot
+        - go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> click link to download plugin -> save the script to a temporary location -> download the .exe file from the releases page
         - in qbittorrent open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
         - to configure jackett, open the url that is displayed in qBittorrent -> Search tab -> search plugins
 
