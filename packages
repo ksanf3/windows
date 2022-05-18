@@ -21,7 +21,7 @@ AMD Website -> Drivers & Support -> Auto-Detect
     - in preferences, configure power management, enable anonymous mode, and recheck torrents on completion
     - "View" tab -> Search Engine
     - configure search by...
-        - jackett was already installed through winget, but you still need to open it and allow it to run on boot, and install and configure the jackett plugin
+        - jackett was already installed through winget, but you still need to open it and allow it to run on boot, and install and set up the jackett plugin
         - to install the jackett plugin, go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> download the plugin to a temporary location and read the rest of the page to set up
         - in qbittorrent open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
         - to configure jackett, open the url that is displayed in qBittorrent -> Search tab -> search plugins
