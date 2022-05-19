@@ -19,7 +19,7 @@ AMD Website -> Drivers & Support -> Auto-Detect
 
   # if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
     - you can do this on windows by running the following command from an admin command prompt...
-      - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+        - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
   
   
   # qBittorrent
