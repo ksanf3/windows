@@ -17,6 +17,9 @@ AMD Website -> Drivers & Support -> Auto-Detect
 
 # config
 
+  # if dual booting with another os, you need to 
+  
+  
   # qBittorrent
     - in preferences, configure power management, enable anonymous mode, and recheck torrents on completion
     - "View" tab -> Search Engine
