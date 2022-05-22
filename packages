@@ -30,7 +30,7 @@ AMD Website -> Drivers & Support -> Auto-Detect
         - to install the jackett plugin, go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> download the plugin to a temporary location and read the rest of the page to set up
         - in qbittorrent open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
         - to configure jackett, open the url that is displayed in qBittorrent -> Search tab -> search plugins
-
     
-  # Chromium
-    - config in Bitwarden
+
+  # flux
+    - set to "Color Fidelity"
