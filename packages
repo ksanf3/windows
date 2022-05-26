@@ -27,9 +27,9 @@ AMD Website -> Drivers & Support -> Auto-Detect
     - "View" tab -> Search Engine
     - configure search by...
         - jackett was already installed through winget, but you need to launch it to enable it
-        - to install the jackett plugin for qBittorrent, go to the qbittorrent/search-plugins repository on GitHub -> How to configure jackett plugin -> download the plugin to a temporary location and read the rest of the page to set up
-        - in qbittorrent open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
-        - to configure jackett, open the url that is displayed in qBittorrent -> Search tab -> search plugins
+        - to install the plugin and configure jackett, open qbittorrent and open the "Search" tab -> search plugins -> click on the link -> click on "How to configure Jackett plugin"
+        - download the plugin to a temporary location, open qbittorrent and open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
+        - configure jackett by reading the rest of the github page
     
 
   # flux
