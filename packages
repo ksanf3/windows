@@ -9,7 +9,8 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
 # software from internet
 
-AMD Website -> Drivers & Support -> Auto-Detect
+- AMD Website -> Drivers & Support -> Auto-Detect
+- ventoy
 
 
 
