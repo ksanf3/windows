@@ -21,6 +21,10 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
   # if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
     - you can do this on windows by running the following command from an admin command prompt...
         - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+        
+        
+  # flux
+    - set to "Color Fidelity"
   
   
   # qBittorrent
@@ -31,7 +35,10 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
         - to install the plugin and configure jackett, open qbittorrent and open the "Search" tab -> search plugins -> click on the link -> click on "How to configure Jackett plugin"
         - download the plugin to a temporary location, open qbittorrent and open the "Search" tab -> search plugins -> install a new one -> import the downloaded file -> delete the plugin saved to temporary location
         - configure jackett by reading the rest of the github page
+        
+        
+  # windows
+    - in file explorer, pin the path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" to Quick access
     
 
-  # flux
-    - set to "Color Fidelity"
+
