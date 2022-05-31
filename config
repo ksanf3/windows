@@ -1,11 +1,17 @@
-# install software from the internet
-####################################
+# run github script Sophia-Script-for-Windows
+#############################################
 
-- Sophia-Script-for-Windows from github
-  - run the script AS IS before installing any other software
-  - accept all defaults and uninstall everything
-- AMD Website -> Drivers & Support -> Auto-Detect
-- ventoy from github
+- open the terminal and set the default profile to "Windows PowerShell"
+- download the script with the command...
+  - irm script.sophi.app -useb | iex
+- right click the windows icon and click "Windows Terminal (Admin)"
+- change the current location to the sophia folder with the command...
+  - cd [path to sophia folder]
+- set execution policy to be able to run scripts only in the current powershell session with the command...
+  - Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+- run the sript with the command...
+  - .\Sophia.ps1
+- accept all defaults and uninstall everything
 
 
 
@@ -14,13 +20,18 @@
 # install software from winget
 ##############################
 
-# open the terminal and set the default profile to "Windows PowerShell", but run this command with "Command Prompt"
+#  but run this command with "Command Prompt"
 winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install flux.flux && winget install GnuPG.GnuPG && winget install CPUID.HWMonitor && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC
 
 
 
 
 
+# install software from the internet
+####################################
+
+- AMD Website -> Drivers & Support -> Auto-Detect
+- ventoy from github
 
 
 
