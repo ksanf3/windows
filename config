@@ -1,4 +1,5 @@
 # install software from the internet
+####################################
 
 - Sophia-Script-for-Windows from github
   - run the script before installing any other software
@@ -7,7 +8,11 @@
 - ventoy from github
 
 
+
+
+
 # install software from winget
+##############################
 
 # open the terminal and set the default profile to "Windows PowerShell", but run this command with "Command Prompt"
 winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install flux.flux && winget install GnuPG.GnuPG && winget install CPUID.HWMonitor && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC
@@ -21,8 +26,8 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
 
 
-
 # config
+########
 
   # if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
     - you can do this on windows by running the following command from an admin command prompt...
