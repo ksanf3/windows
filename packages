@@ -1,3 +1,12 @@
+# software from internet
+
+- Sophia-Script-for-Windows from github
+  - run the script before installing any other software
+  - accept all defaults and uninstall everything
+- AMD Website -> Drivers & Support -> Auto-Detect
+- ventoy from github
+
+
 # winget software
 
 # open the terminal and set the default profile to "Windows PowerShell", but run this command with "Command Prompt"
@@ -7,10 +16,7 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
 
 
-# software from internet
 
-- AMD Website -> Drivers & Support -> Auto-Detect
-- ventoy from github
 
 
 
