@@ -20,7 +20,7 @@
 # install software from winget
 ##############################
 
-#  but run this command with "Command Prompt"
+# run the following command with "Command Prompt"...
 winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install flux.flux && winget install GnuPG.GnuPG && winget install CPUID.HWMonitor && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLan.VLC
 
 
@@ -39,12 +39,11 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
 # config
 ########
+       
+  # amd software
+    - set graphics profile to "gaming" but enable "Radeon Enhanced Sync"
 
-  # if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
-    - you can do this on windows by running the following command from an admin command prompt...
-        - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
-        
-        
+
   # flux
     - set to "Color Fidelity"
   
@@ -60,6 +59,9 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
         
         
   # windows
+    - if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
+      - you can do this by running the following command from an admin command prompt...
+        - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
     - in file explorer, pin the path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" to Quick access
     
 
