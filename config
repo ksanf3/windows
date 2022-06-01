@@ -1,22 +1,3 @@
-# run github script Sophia-Script-for-Windows
-#############################################
-
-- open the terminal and set the default profile to "Windows PowerShell"
-- download the script with the command...
-  - irm script.sophi.app -useb | iex
-- right click the windows icon and click "Windows Terminal (Admin)"
-- change the current location to the sophia folder with the command...
-  - cd [path to sophia folder]
-- set execution policy to be able to run scripts only in the current powershell session with the command...
-  - Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
-- run the sript with the command...
-  - .\Sophia.ps1
-- accept all defaults and uninstall everything
-
-
-
-
-
 # install software from winget
 ##############################
 
@@ -30,8 +11,12 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 # install software from the internet
 ####################################
 
-- AMD Website -> Drivers & Support -> Auto-Detect
-- ventoy from github
+- amd website -> Drivers & Support -> Auto-Detect
+- github -> Sophia-Script-for-Windows
+  - open the windows terminal and set the default profile to "Windows PowerShell"
+  - On the readme page, read sections "How to download Sophia Script via PowerShell" and "How to use"
+  - accept all defaults and uninstall everything
+- github -> Ventoy
 
 
 
@@ -42,6 +27,10 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
        
   # amd software
     - set graphics profile to "gaming" but enable "Radeon Enhanced Sync"
+  
+  
+  # MSEdgeRedirect
+    - open and configure
 
 
   # flux
@@ -64,5 +53,3 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
         - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
     - in file explorer, pin the path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" to Quick access
     
-
-
