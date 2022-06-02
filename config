@@ -13,7 +13,6 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
 - amd website -> Drivers & Support -> Auto-Detect
 - github -> Sophia-Script-for-Windows
-  - open the windows terminal and set the default profile to "Windows PowerShell"
   - On the readme page, read sections "How to download Sophia Script via PowerShell" and "How to use"
   - in the "Sophia.ps1" file, configure bing search, check boxes, open file explorer, onedrive, hibernation, powerplan, network adapters
   - accept all defaults and uninstall everything
