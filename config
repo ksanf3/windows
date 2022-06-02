@@ -1,3 +1,10 @@
+# check a file hash with the following command...
+  - Get-Filehash -Path [path to file] -Algorithm SHA256
+
+
+
+
+
 # install software from winget
 ##############################
 
