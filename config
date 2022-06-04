@@ -57,4 +57,20 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
       - you can do this by running the following command from an admin command prompt...
         - reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
     - in file explorer, pin the path "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" to Quick access
-    
+            
+ 
+ 
+
+
+# game paths
+############
+ 
+# fortnite
+C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteClient-Win64-Shipping.exe
+
+# rocket league
+C:\Program Files\Epic Games\rocketleague\Binaries\Win64\RocketLeague.exe
+
+# trackmania
+C:\Program Files\Epic Games\TrackmaniaNext\Trackmania.exe
+
