@@ -43,7 +43,7 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
   
   
   # qBittorrent
-    - in preferences, configure power management, enable anonymous mode, and recheck torrents on completion
+    - in preferences, configure power management, enable anonymous mode, set network interface to "Mullvad", and recheck torrents on completion
     - "View" tab -> Search Engine
     - configure search by...
         - jackett was already installed through winget, but you need to launch it to enable it, and set it to auto start on boot
