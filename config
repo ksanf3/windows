@@ -9,7 +9,7 @@
 ##############################
 
 # open the terminal and run "cmd", then run the following command...
-winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install flux.flux && winget install GnuPG.GnuPG && winget install CPUID.HWMonitor && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install NordVPN.NordVPN && winget install PolyMC.PolyMC && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLAN.VLC
+winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium && winget install Discord.Discord && winget install rcmaehl.MSEdgeRedirect && winget install EpicGames.EpicGamesLauncher && winget install flux.flux && winget install GnuPG.GnuPG && winget install CPUID.HWMonitor && winget install Jackett.Jackett && winget install Joplin.Joplin && winget install LibreWolf.LibreWolf && winget install MullvadVPN.MullvadVPN && winget install PolyMC.PolyMC && winget install qBittorrent.qBittorrent && winget install Valve.Steam && winget install TorProject.TorBrowser && winget install Ubisoft.Connect && winget install VideoLAN.VLC
 
 
 
