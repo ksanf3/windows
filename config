@@ -1,5 +1,5 @@
 # check a file hash with the following command...
-  - Get-Filehash -Path [path to file] -Algorithm SHA256
+  - Get-Filehash -Path "[path to file]" -Algorithm SHA256
 
 
 
