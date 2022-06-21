@@ -34,12 +34,15 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
     - set graphics profile to "gaming" but enable "Radeon Enhanced Sync"
   
   
+  
   # MSEdgeRedirect
     - open and configure
 
 
+
   # flux
     - set to "Color Fidelity"
+  
   
   
   # qBittorrent
@@ -59,6 +62,7 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
         - open the plugin and copy the url, then open qbittorrent and open the "Search" tab -> search plugins -> install a new one -> Web link -> paste the plugin url
         - configure jackett by reading the rest of the github page
     - you can install a theme by looking at the qBittorrent wiki on github
+        
         
         
   # windows
