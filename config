@@ -5,6 +5,21 @@
 
 
 
+# run Sophia-Script-for-Windows from github
+###########################################
+
+- download the script via the terminal with...
+  - irm script.sophi.app -useb | iex
+- edit the Sophia.ps1 file to configure functions you want to run
+- open the terminal as an administrator and run the following commands to run the script
+  - Set-Location -Path "[path to sophia folder]"
+  - Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+  - .\Sophia.ps1
+
+
+
+
+
 # install software from winget
 ##############################
 
@@ -19,8 +34,6 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 ####################################
 
 - amd website -> Drivers & Support -> Auto-Detect
-- github -> Sophia-Script-for-Windows
-  - On the readme page, read sections "How to download Sophia Script via PowerShell" and "How to use"
 - github -> Ventoy
 
 
