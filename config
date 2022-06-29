@@ -55,6 +55,7 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
 
   # flux
     - set to "Color Fidelity"
+    - disable "Backwards Alarm Clock"
   
   
   
