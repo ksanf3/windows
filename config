@@ -77,12 +77,7 @@ winget install Bitwarden.Bitwarden && winget install eloston.ungoogled-chromium 
         - open the plugin and copy the url, then open qbittorrent and open the "Search" tab -> search plugins -> install a new one -> Web link -> paste the plugin url
         - configure jackett by reading the rest of the github page
         
-        
-        
-  # vlc
-    - you can install a theme by opening vlc -> tools -> preferences -> use custom theme -> click on the link
 
-    
   
   # windows
     - if dual booting with another os, you need to configure windows to use UTC time, this is so the clock stays correct when switching between os's
