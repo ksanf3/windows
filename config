@@ -44,7 +44,7 @@ winget install Bitwarden.Bitwarden && winget install BleachBit.BleachBit && wing
 ########
        
   # amd software
-    - set graphics profile to "gaming" but enable "Radeon Enhanced Sync"
+    - set graphics profile to "eSports" but enable "Radeon Enhanced Sync"
   
   
   
